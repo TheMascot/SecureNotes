@@ -10,4 +10,8 @@ public class HelloController {
     public String hello() {
         return "Hello";
     }
+    @GetMapping("/contact")
+    public String contact() {
+        return "Contact info";
+    }
 }
